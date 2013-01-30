@@ -1,4 +1,4 @@
-Optimus: optimus
+Optimus: rabbitmq
 ================
 
 Use
