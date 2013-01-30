@@ -1,4 +1,12 @@
 {
-
-  "run_list": ["apt", "build-essential", "berkshelf" ]
+  "apt": {
+    "mirror": "us-east-1.ec2"
+  },
+  "rabbitmq": {
+    "address": "0.0.0.0"
+  },
+  "run_list": [
+    "recipe[apt]",
+    "recipe[rabbitmq::default]"
+  ]
 }

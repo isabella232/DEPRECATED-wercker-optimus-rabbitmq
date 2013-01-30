@@ -24,6 +24,7 @@ Vagrant::Config.run do |config|
 
   VAGRANT_JSON = MultiJson.load(Pathname(__FILE__).dirname.join('solo.json').read)
   config.vm.provision :chef_solo do |chef|
+  chef.log_level      = :debug
 
   chef.json = VAGRANT_JSON
     VAGRANT_JSON['run_list'].each do |recipe|
