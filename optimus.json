@@ -1,11 +1,15 @@
 {
-	"name" : "rabbitmq",
-	"version" : "0.0.1",
-  "stackInfo" :{},
-  "isPrivate" : false,
-  "mainDetect" : [],
-  "supportDetect" : [],
-  "packageIgnore" : [],
-  "environmentVariables" : [{"WERCKER_RABBITMQ_PORT":"5672"}],
-  "priority" : 1000
+  "name": "rabbitmq",
+  "version": "0.0.1",
+  "stackInfo": {},
+  "isPrivate": false,
+  "mainDetect": [],
+  "supportDetect": [],
+  "packageIgnore": [],
+  "environmentVariables": [
+    {
+      "WERCKER_RABBITMQ_PORT": "5672"
+    }
+  ],
+  "priority": 1000
 }
