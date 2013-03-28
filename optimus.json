@@ -1,6 +1,6 @@
 {
   "name": "rabbitmq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "stackInfo": {},
   "isPrivate": false,
   "mainDetect": [],
@@ -9,6 +9,12 @@
   "environmentVariables": [
     {
       "WERCKER_RABBITMQ_PORT": "5672"
+    },
+    {
+      "WERCKER_RABBITMQ_USERNAME": "guest"
+    },
+    {
+      "WERCKER_RABBITMQ_PASSWORD": "guest"
     }
   ],
   "priority": 1000
